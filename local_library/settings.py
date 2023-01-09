@@ -160,7 +160,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ## For example, for a site URL is at 'web-production-3640.up.railway.app'
 ## (replace the string below with your own site URL):
 CSRF_TRUSTED_ORIGINS = [
-    '127.0.0.1',
+    'https://127.0.0.1',
     'https://django-local-library.up.railway.app',
 ]
 
