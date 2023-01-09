@@ -32,7 +32,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ## (replace the string below with your own site URL):
 ALLOWED_HOSTS = [
     '127.0.0.1', 
-    'djangolocallibrary-production.up.railway.app/',
+    'django-local-library.up.railway.app',
 ]
 
 # During development, you can instead set just the base URL
