@@ -6,3 +6,9 @@
 
 # Automatically created files
 *.pyc
+
+# Python environment
+venv
+
+# Static files
+staticfiles
