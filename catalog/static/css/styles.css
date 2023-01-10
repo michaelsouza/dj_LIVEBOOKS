@@ -1,5 +1,33 @@
-.sidebar-nav {
-  margin-top: 20px;
-  padding: 0;
-  list-style: none;
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */      
+  background-color: whitesmoke;
+}
+
+.sidenav-title {
+  margin: 0px 5px;
+}
+
+.sidenav a {  
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+}
+
+.main{
+  margin: 0 250px;
+}
+
+.sidenav li {
+  list-style-type: none;  
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .sidnavbar a {
+    float: none;
+    display: block;
+  }
 }
