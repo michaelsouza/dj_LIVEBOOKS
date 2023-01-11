@@ -1,33 +1,64 @@
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */      
-  background-color: whitesmoke;
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
-.sidenav-title {
-  margin: 0px 5px;
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-.sidenav a {  
-  text-decoration: none;
-  font-size: 18px;
-  color: #000000;
+.sidebar a {
   display: block;
+  color: black;
+  padding: 5px;
+  width: 150px;
+  text-decoration: none;
 }
 
-.main{
-  margin: 0 250px;
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
-.sidenav li {
-  list-style-type: none;  
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .sidnavbar a {
+.sidebar li {
+  list-style-type: none;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
     float: none;
-    display: block;
   }
 }
