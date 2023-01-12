@@ -1,6 +1,11 @@
 # django_local_library
 Django Local Library Tutorial
 
+# Install Python packages using requirements.txt
+```
+python -m pip install -r requirements.txt
+```
+
 # Install Railway cli (Ubuntu)
 ```
 sudo curl -fsSL https://railway.app/install.sh | sudo sh
@@ -23,6 +28,17 @@ Update Railway server
 railway up
 railway logs
 ```
+
+# HTML, CSS and JavaScript code
+
+# Download Icons
+
+- [Font Awesome](https://fontawesome.com/)
+- [Feather Icons](https://feathericons.com/)
+- [Octicons](https://octicons.github.com/)
+
+# Download Images
+https://www.pexels.com/
 
 # References
 [CLI Railway](https://docs.railway.app/develop/cli)

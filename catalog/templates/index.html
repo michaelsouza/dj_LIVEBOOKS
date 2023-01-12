@@ -1,15 +1,18 @@
 {% extends "base_generic.html" %}
 
-{% block content %}  
-  <p>Welcome to LocalLibrary, a website developed by <em>Mozilla Developer Network</em>!</p>
-  <h2>Dynamic content</h2>
-  <p>The library has the following record counts:</p>
-  <ul>
-    <li><strong>Books:</strong> {{ num_books }}</li>
-    <li><strong>Copies:</strong> {{ num_instances }}</li>
-    <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
-    <li><strong>Authors:</strong> {{ num_authors }}</li>
-    <li><strong>Genres:</strong> {{ num_genres }}</li>
-  </ul>
-  <p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
+{% block main %}
+<!-- Background image -->
+<div class="p-5 justify-content-lg-between text-center bg-image"
+  style="background-image: url('https://images.pexels.com/photos/3747464/pexels-photo-3747464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); height: 400px; margin-top: 0px;">
+  <div class="mask" style="background-color: rgba(66, 40, 40, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3">LiveBooks</h1>
+        <h4 class="mb-3">"I have always imagined that Paradise will be a kind of library."</h4>
+        <h5 class="mb-3 fst-italic">Jorge Luis Borges</h5>
+        <a class="btn btn-outline-light btn-lg" href="{% url 'books' %}" role="button">Look our collection</a>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
