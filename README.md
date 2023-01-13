@@ -1,6 +1,13 @@
 # django_local_library
 Django Local Library Tutorial
 
+# Using venv
+It's a better practice to use venv (virtual environment). It simplifies the creation of the requirements.txt file.
+
+```
+source venv/bin/activate
+```
+
 # Install Railway cli (Ubuntu)
 ```
 sudo curl -fsSL https://railway.app/install.sh | sudo sh
