@@ -7,6 +7,14 @@ It's a better practice to use venv (virtual environment). It simplifies the crea
 ```
 source venv/bin/activate
 ```
+# Hosting Django App
+
+- [Railway](https://railway.app/) 
+
+# Install Python packages using requirements.txt
+```
+python -m pip install -r requirements.txt
+```
 
 # Install Railway cli (Ubuntu)
 ```
@@ -30,6 +38,17 @@ Update Railway server
 railway up
 railway logs
 ```
+
+# HTML, CSS and JavaScript code
+
+# Download Icons
+
+- [Font Awesome](https://fontawesome.com/)
+- [Feather Icons](https://feathericons.com/)
+- [Octicons](https://octicons.github.com/)
+
+# Download Images
+https://www.pexels.com/
 
 # References
 [CLI Railway](https://docs.railway.app/develop/cli)
