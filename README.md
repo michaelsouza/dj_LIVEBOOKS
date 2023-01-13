@@ -1,4 +1,4 @@
-# django_local_library
+# django_LiveBooks
 Django Local Library Tutorial
 
 # Using venv
